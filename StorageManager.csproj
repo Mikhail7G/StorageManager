@@ -77,10 +77,10 @@
     <Compile Include="customers.Designer.cs">
       <DependentUpon>customers.cs</DependentUpon>
     </Compile>
-    <Compile Include="customerView.cs">
+    <Compile Include="InfoForms\customerView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="customerView.Designer.cs">
+    <Compile Include="InfoForms\customerView.Designer.cs">
       <DependentUpon>customerView.cs</DependentUpon>
     </Compile>
     <Compile Include="InfoForms\componentview.cs">
@@ -157,7 +157,7 @@
     <EmbeddedResource Include="customers.resx">
       <DependentUpon>customers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="customerView.resx">
+    <EmbeddedResource Include="InfoForms\customerView.resx">
       <DependentUpon>customerView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfoForms\componentview.resx">
