@@ -17,11 +17,11 @@ namespace StorageManager
     {
        
         //данные коннекта к БД
-        static string serv = "46.48.80.168";
+        static string serv = "";
         static string user = "user";
-        static string db = "elvestdb";
-        static string port = "3306";
-        static string pass = "rmc-trust";
+        static string db = "";
+        static string port = "";
+        static string pass = "";
 
         public string connStr =
              "server=" + serv.ToString() +
